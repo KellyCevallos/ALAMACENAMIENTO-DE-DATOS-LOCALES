@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Datos</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <main>
+        <form id="formulario">
+            <div class="form">
+                <h1>Ingreso de Datos de Clientes</h1>
+                
+                <label for="cedula">Cédula de Identificación:</label>
+                <input type="text" id="cedula" placeholder="Dígite su número de cédula">
+                
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" placeholder="Ingrese sus apellidos">
+                
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" placeholder="Ingrese sus nombres">
+                
+                <label for="estadoCivil">Estado Civil:</label>
+                <input type="radio" name="estadoCivil" value="Soltero" checked> Soltero
+                <input type="radio" name="estadoCivil" value="Casado"> Casado
+                
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" value="Masculino" checked> Masculino
+                <input type="radio" name="sexo" value="Femenino"> Femenino
+                
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" placeholder="Ingrese lugar de residencia">
+                
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" placeholder="Ingrese su dirección">
+                
+                <label for="telefono">Teléfono/Celular:</label>
+                <input type="text" id="telefono" placeholder="Dígite su número telefónico/celular">
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="text" id="correo" placeholder="Dígite su dirección de correo electrónico">
+                
+                <button type="submit">Enviar Datos</button>
+            </div>
+        </form>
+    </main>
+    <script src="codigo.js"></script>
+</body>
+</html>
